@@ -10,7 +10,7 @@ terraform {
     bucket = "remote-state-86x-dev"
     key    = "roboshop-eks-sg-rules"
     region = "us-east-1"
-    use_lockfile = true
+    #use_lockfile = true
     encrypt = true
   }
 }

@@ -430,7 +430,7 @@ resource "aws_security_group_rule" "eks_node_vpc" {
   protocol          = "-1"
   to_port           = 0
 }
-
+# if node-1 allows traffic vpc cidr, then node-2 also allows traffic from vpc cidr, so pod in node-1 can talk to pod in node-2 and vice versa
 
 
 

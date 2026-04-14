@@ -7,11 +7,11 @@ variable "environment" {
 }
 
 variable "zone_id" {
-    default = "Z0948150OFPSYTNVYZOY"
+    default = "Z0043313JVXOCUVVVC7F"
 }
 
 variable "domain_name" {
-    default = "daws86s.fun"
+    default = "daws86.fun"
 }
 
 variable "eks_version" {
